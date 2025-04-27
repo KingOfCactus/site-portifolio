@@ -1,0 +1,19 @@
+{
+    "header": "Destaques",
+    "projects": [
+        {
+            "title": "Introduction",
+            "description": "This is the introduction section.",
+            "contents": [
+                {
+                    "type": "image",
+                    "src": "https://example.com/image1.jpg"
+                },
+                {
+                    "type": "video",
+                    "src": "https://example.com/image1.jpg"
+                }
+            ]
+        }
+    ]
+}

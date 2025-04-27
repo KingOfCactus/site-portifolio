@@ -1,6 +1,6 @@
 const LANGUAGES = [ "pt-br", "eng" ];
-
 main();
+loadSections();
 
 function main() {
     let lang = window.location.search.substr(1);
@@ -19,4 +19,11 @@ function applyLanguage(targetLang) {
             element.classList.add("visually-hidden");
         });
     });
+}
+
+
+async function loadSections() {
+    const response = await fetch("sections-pt.json");
+    const json = await response.json();
+    console.log(json);
 }
